@@ -1,0 +1,140 @@
+body{
+    background-color:#0f172a ;
+    color: #f8fafc;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+}
+nav {
+    background-color: #f3d9e8;
+    display: flex;
+    justify-content: center;
+   text-align:center;
+    gap: 25px;
+    padding: 15px;
+     
+}
+
+nav a {
+    color: #39243b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #c04482;
+}
+.مقدمه {
+    color: #f3d9e8;
+    text-align: center;
+    padding: 40px 15px;
+}
+.مقدمه img {
+    border-radius: 50%;
+    border: 4px solid #f3b6d5;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  
+}
+.r {
+    color: #f8fafc;
+    padding: 30px;
+}
+
+.r h2,
+.r h3,
+.r h4 {
+    color: #f3b6d5;
+}
+
+/* المهارات */
+.skils {
+    color: #f8fafc;
+    padding: 30px;
+}
+
+
+.skils h2 {
+    color: #f3b6d5;
+}
+
+/* الهوايات */
+.hobbies {
+    color: #f8fafc;
+    padding: 30px;
+}
+
+.hobbies h2 {
+    color: #f3b6d5;
+}
+
+/* المؤهلات التعليمية */
+.education {
+    color: #f8fafc;
+    padding: 30px;
+}
+
+
+
+.education table {
+  
+    width: 100%;
+    text-align: center;
+}
+
+.education th,
+.education td {
+    border: 1px solid #d88bb5;
+    padding: 10px;
+}
+
+.education th {
+    background-color: #f3d9e8;
+    color: #39243b;
+}
+
+/* التواصل */
+.content {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+
+.content p {
+   
+    color: #f3d9e8;
+    margin: 12px 0;
+}
+
+.content input,
+.content textarea {
+  
+    width: 100%;
+ 
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #d88bb5;
+    border-radius: 8px;
+    background-color: #f8fafc;
+}
+
+.content button {
+    background-color: #d88bb5;
+    color: #39243b;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 8px;
+    
+    font-weight: bold;
+}
+
+.content button:hover {
+    background-color: #f3d9e8;
+}
+
+
+
+
+
+
