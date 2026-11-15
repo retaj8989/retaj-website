@@ -7,11 +7,11 @@ body{
 nav {
     background-color: #f3d9e8;
     display: flex;
-    justify-content: center;
+   
    text-align:center;
-    gap: 25px;
+   
     padding: 15px;
-     
+      justify-content: space-between; 
 }
 
 nav a {
@@ -19,10 +19,11 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+   
 }
 
 nav a:hover {
-    color: #c04482;
+    color: #b79eaa;
 }
 .مقدمه {
     color: #f3d9e8;
